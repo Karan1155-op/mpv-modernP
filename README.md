@@ -7,7 +7,7 @@ A minimal, resource-efficient On-Screen Controller (OSC) and custom UI for the M
 
 Forked from [maoiscat/mpv-osc-modern](https://github.com/maoiscat/mpv-osc-modern) and [cyl0/ModernX](https://github.com/cyl0/ModernX), this version is optimized for zero background processing and maximum battery efficiency.
 
-![Main Player Preview](link-to-your-main-video-or-screenshot)
+![Main Player Preview](preview1.mp4)
 
 ## Features
 
