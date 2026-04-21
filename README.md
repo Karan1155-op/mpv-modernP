@@ -14,7 +14,7 @@ Forked from [maoiscat/mpv-osc-modern](https://github.com/maoiscat/mpv-osc-modern
 ### File Browser Overlay
 Navigate local directories directly within MPV. Supports Grid and List views, sorting (A-Z, Date), and an instant typing-based search.
 
-![File Browser Screenshot](link-to-your-browser-screenshot)
+![File Browser Screenshot](browser_preview.png)
 
 ### Playlist Overlay
 View and manage your current queue with visual progress tracking. Includes green checkmarks (`✓`) for completed files and watched timestamps.
