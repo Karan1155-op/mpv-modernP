@@ -5,7 +5,7 @@ A highly optimized, battery-friendly OSC and File Browser for MPV player. Built 
 
 A minimal, resource-efficient On-Screen Controller (OSC) and custom UI for the MPV media player. 
 
-Forked from [maoiscat/mpv-osc-modern](https://github.com/maoiscat/mpv-osc-modern) and [cyl0/ModernX](https://github.com/cyl0/ModernX), this version is optimized for zero background processing and maximum battery efficiency.
+Forked from [maoiscat/mpv-osc-modern](https://github.com/maoiscat/mpv-osc-modern) and [cyl0/ModernX](https://github.com/cyl0/ModernX), this version is optimized for minimum background processing and maximum battery efficiency.
 
 ![Main Player Preview](preview1.gif)
 
