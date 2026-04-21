@@ -32,16 +32,20 @@ Navigate through video chapters with a dedicated menu showing precise timestamps
 
 ![Chapters Screenshot](chapters_overlay.png)
 
-## Installation
+## 📥 Installation (For mpv.net - Portable Mode)
 
-1. Disable the default OSC. Add the following to your `mpv.conf`:
-   ```ini
-   osc=no
-   ```
-2. Place `modernP.lua` into your MPV scripts directory:
-   * **Windows:** `%APPDATA%\mpv\scripts\`
-   * **Linux/macOS:** `~/.config/mpv/scripts/`
-3. Delete any existing `osc.conf` in your `script-opts` folder to avoid configuration conflicts.
+This setup is specifically optimized for **mpv.net** (`mpvnet.exe`), a modern Windows fork of MPV. To keep your system clean, we highly recommend using the portable mode.
+
+1. **Get mpv.net:** If you don't have it, download the latest version of [mpv.net from GitHub](https://github.com/mpvnet-player/mpv.net/releases) and extract it to a folder of your choice.
+2. **Open the Folder:** Go to your main mpv.net installation folder (the exact folder where your `mpvnet.exe` is located).
+3. **Make it Portable:** Create a new folder inside it and name it exactly: `portable_config`
+4. **Download the Setup:** Download the provided setup ZIP file from this repository.
+5. **Extract:** Extract all the contents of the ZIP file directly into the newly created `portable_config` folder.
+6. **Done!** Launch `mpvnet.exe`. The ModernP UI along with all God-Tier battery-saving settings will automatically take over.
+
+*(Note: If you already use mpv.net, ensure you delete any existing `osc.conf` from your `script-opts` folder before applying this setup to avoid clashes.)*
+
+
 
 ## Key Bindings
 
