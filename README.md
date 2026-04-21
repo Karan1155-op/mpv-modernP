@@ -15,21 +15,22 @@ Forked from [maoiscat/mpv-osc-modern](https://github.com/maoiscat/mpv-osc-modern
 Navigate local directories directly within MPV. Supports Grid and List views, sorting (A-Z, Date), and an instant typing-based search.
 
 ![File Browser Screenshot](browser_preview.png)
+![](startupbrowser_preview.png)
 
 ### Playlist Overlay
 View and manage your current queue with visual progress tracking. Includes green checkmarks (`✓`) for completed files and watched timestamps.
 
-![Playlist Screenshot](link-to-your-playlist-screenshot)
+![Playlist Screenshot](playlist_overlay.png)
 
 ### Audio & Subtitle Overlays
 Clean, native menus to quickly cycle through or select specific audio and subtitle tracks without cluttering the interface.
 
-![Audio-Sub Screenshot](link-to-your-audio-sub-screenshot)
+![Audio-Sub Screenshot](audio_overlay.png)
 
 ### Chapters Overlay
 Navigate through video chapters with a dedicated menu showing precise timestamps for each segment.
 
-![Chapters Screenshot](link-to-your-chapters-screenshot)
+![Chapters Screenshot](chapters_overlay.png)
 
 ## Installation
 
