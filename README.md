@@ -3,38 +3,59 @@ A highly optimized, battery-friendly OSC and File Browser for MPV player. Built 
 
 # ModernP
 
-A modern OSC UI replacement for MPV, featuring a highly optimized built-in File Browser. Forked from [cyl0/ModernX](https://github.com/cyl0/ModernX) and completely refactored for zero background processing and maximum battery efficiency.
+A minimal, resource-efficient On-Screen Controller (OSC) and custom UI for the MPV media player. 
 
-![ModernP](link-to-your-video-or-screenshot)
+Forked from [maoiscat/mpv-osc-modern](https://github.com/maoiscat/mpv-osc-modern) and [cyl0/ModernX](https://github.com/cyl0/ModernX), this version is optimized for zero background processing and maximum battery efficiency.
+
+![Main Player Preview](link-to-your-main-video-or-screenshot)
 
 ## Features
-- **Smart File Browser:** Toggle between Grid and List views with Universal Search and sorting.
-- **Battery Optimized:** Zero background processing, no forced FFmpeg rendering.
-- **Bulletproof Resume:** Native hash-matching ensures perfect resume times across all navigation methods.
-- **Visual Progress Tracking:** Automatically tracks watched episodes with `✓` and precise timestamps.
-- **Clean Overlays:** Intuitive native menus for Playlists, Audio, Subtitles, and Chapters.
+
+### File Browser Overlay
+Navigate local directories directly within MPV. Supports Grid and List views, sorting (A-Z, Date), and an instant typing-based search.
+
+![File Browser Screenshot](link-to-your-browser-screenshot)
+
+### Playlist Overlay
+View and manage your current queue with visual progress tracking. Includes green checkmarks (`✓`) for completed files and watched timestamps.
+
+![Playlist Screenshot](link-to-your-playlist-screenshot)
+
+### Audio & Subtitle Overlays
+Clean, native menus to quickly cycle through or select specific audio and subtitle tracks without cluttering the interface.
+
+![Audio-Sub Screenshot](link-to-your-audio-sub-screenshot)
+
+### Chapters Overlay
+Navigate through video chapters with a dedicated menu showing precise timestamps for each segment.
+
+![Chapters Screenshot](link-to-your-chapters-screenshot)
 
 ## Installation
-1. Disable the default OSC by adding `osc=no` in your `mpv.conf`.
-2. Drop `modernP.lua` into your mpv `scripts` directory:
+
+1. Disable the default OSC. Add the following to your `mpv.conf`:
+   ```ini
+   osc=no
+   ```
+2. Place `modernP.lua` into your MPV scripts directory:
    * **Windows:** `%APPDATA%\mpv\scripts\`
    * **Linux/macOS:** `~/.config/mpv/scripts/`
-3. Delete any existing `osc.conf` in your `script-opts` folder to prevent clashes.
-4. (Optional) Use the provided `mpv.conf` and `input.conf` in your root mpv folder for the best hardware decoding and custom shortcuts.
+3. Delete any existing `osc.conf` in your `script-opts` folder to avoid configuration conflicts.
 
 ## Key Bindings
 
 | Key | Action |
 | --- | --- |
-| `O` | Toggle File Browser |
-| `TAB` | Toggle Playlist |
-| `C` | Toggle Chapters Menu |
-| `A` / `Shift+A` | Cycle / Toggle Audio Menu |
-| `S` / `Shift+S` | Cycle / Toggle Subtitles Menu |
-| `Ctrl+S` | Take clean screenshot (no UI/Subtitles) |
-| `.` / `,` | Step forward/backward frame-by-frame |
-| `Typing` *(in Browser)* | Search files/folders instantly |
+| **`O`** | Toggle File Browser |
+| **`TAB`** | Toggle Playlist |
+| **`C`** | Toggle Chapters Menu |
+| **`A`** / `Shift+A` | Cycle / Toggle Audio Tracks Menu |
+| **`S`** / `Shift+S` | Cycle / Toggle Subtitle Tracks Menu |
+| **`Arrows` / `Scroll`** | Navigate through menus and grids |
+| **`ENTER` / `Click`** | Play selected file or open folder |
+| **`Typing`** *(in Browser)* | Instantly search/filter files and folders |
 
 ## Credits
-* [maoiscat/mpv-osc-modern](https://github.com/maoiscat/mpv-osc-modern) - Original OSC script.
-* [cyl0/ModernX](https://github.com/cyl0/ModernX) - ModernX fork.
+* [maoiscat](https://github.com/maoiscat/mpv-osc-modern) - Original creator of *mpv-osc-modern*.
+* [cyl0](https://github.com/cyl0/ModernX) - Creator of the *ModernX* fork.
+* **pspok** - Creator of *ModernP* (Refactoring, Overlay integration, and battery optimization).
