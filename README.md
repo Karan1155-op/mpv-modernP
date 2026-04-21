@@ -59,4 +59,4 @@ Navigate through video chapters with a dedicated menu showing precise timestamps
 ## Credits
 * [maoiscat](https://github.com/maoiscat/mpv-osc-modern) - Original creator of *mpv-osc-modern*.
 * [cyl0](https://github.com/cyl0/ModernX) - Creator of the *ModernX* fork.
-* **pspok** - Creator of *ModernP* (Refactoring, Overlay integration, and battery optimization).
+* [Karan1155](https://github.com/Karan1155-op) - Creator of *ModernP* (Refactoring, Overlay integration, and battery optimization).
